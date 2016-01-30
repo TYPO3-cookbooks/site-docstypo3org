@@ -1,7 +1,14 @@
-name 'site-docstypo3org'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures site-docstypo3org'
-long_description 'Installs/Configures site-docstypo3org'
-version '0.1.0'
+name             "site-docstypo3org"
+maintainer       "Steffen Gebert"
+maintainer_email "steffen.gebert@typo3.org"
+license          "Apache2"
+description      "Additions to the setup of docs.typo3.org"
+long_description "Additions to the setup of docs.typo3.org"
+version          "1.0.0"
+
+supports         "debian"
+
+depends          "t3-base",    "~> 0.2.0"
+depends          "ssl_certificates"
+
+depends          "database",   "= 1.3.12"
