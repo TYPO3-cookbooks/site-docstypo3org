@@ -1,4 +1,4 @@
-site-docstypo3org
-=================
+# site-docstypo3org
 
-Chef cookbook for http://docs.typo3.org
+TODO: Enter the cookbook description here.
+
