@@ -6,4 +6,4 @@
 
 include_recipe "ssl_certificates"
 
-ssl_certificate "wildcard.typo3.org"
+ssl_certificate node['site-docstypo3org']['ssl_certificate']
