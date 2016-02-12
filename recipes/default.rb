@@ -7,5 +7,7 @@
 include_recipe "t3-base"
 
 include_recipe "ssl_certificates"
-
 ssl_certificate node['site-docstypo3org']['ssl_certificate']
+
+include_recipe "t3-mysql::server"
+include_recipe "t3-mysql::backup"
