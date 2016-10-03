@@ -11,6 +11,4 @@ supports         "debian"
 depends          "t3-base",    "~> 0.2.0"
 
 depends          "ssl_certificates", "~> 1.1.0"
-depends          "t3-mysql",   "~> 0.1.0"
-
-depends          "database",   "= 1.3.12"
+depends          "t3-mysql",   "~> 5.0.0"
